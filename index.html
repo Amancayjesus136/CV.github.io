@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+
+    <div class="single-item">
+        <div> <img src="https://appleiphone.com.ar/wp-content/uploads/2021/04/8-aplicaciones-moviles-utiles-para-duenos-y-amantes-de-gatos_606fc80504c75-1200x480.jpeg" alt=""></div>
+        <div> <img src="https://www.peludos.net/wp-content/uploads/2019/10/IMG_20190312_102629-1200x480.jpg" alt=""></div>
+        <div> <img src="https://veganlifecommx.files.wordpress.com/2020/04/gatos-estambul.jpg?w=1200" alt=""></div>
+        <div> <img src="https://encimerascruz.com/wp-content/uploads/2018/06/comprar-tu-encimera-silestone-1200x480.jpg" alt=""></div>
+        <div> <img src="https://www.leavingpawprints.org/wp-content/uploads/2021/12/Gatos-Olvidados-Cats-1200x480.jpeg" alt=""></div>
+        <div> <img src="https://www.radiovinilo.cl/wp-content/uploads/2022/05/gatos-y-perros-1200x675-1-1200x480.jpg" alt=""></div>
+
+    </div>
+
+    <div class="multiple-item">
+        <div> <img src="https://appleiphone.com.ar/wp-content/uploads/2021/04/8-aplicaciones-moviles-utiles-para-duenos-y-amantes-de-gatos_606fc80504c75-1200x480.jpeg" alt=""></div>
+        <div> <img src="https://www.peludos.net/wp-content/uploads/2019/10/IMG_20190312_102629-1200x480.jpg" alt=""></div>
+        <div> <img src="https://veganlifecommx.files.wordpress.com/2020/04/gatos-estambul.jpg?w=1200" alt=""></div>
+        <div> <img src="https://encimerascruz.com/wp-content/uploads/2018/06/comprar-tu-encimera-silestone-1200x480.jpg" alt=""></div>
+        <div> <img src="https://www.leavingpawprints.org/wp-content/uploads/2021/12/Gatos-Olvidados-Cats-1200x480.jpeg" alt=""></div>
+        <div> <img src="https://www.radiovinilo.cl/wp-content/uploads/2022/05/gatos-y-perros-1200x675-1-1200x480.jpg" alt=""></div>
+
+    </div>
+      
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script>
+          $('.single-item').slick({
+              autoplay: true,
+              autoplaySpeed: 2000,
+              fade: true,
+              speed: 5000
+          });
+
+          $('.multiple-item').slick({
+              infinite: true,
+              slidesToShow: 5,
+              slidesToScroll: 3,
+          });
+      </script>
+</body>
+</html>
